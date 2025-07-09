@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input,
+textarea {
+    outline: none;
+}
+
+.ant-select-selector {
+    border: none !important;
+}
+
+.custom-select.ant-select-outlined:not(.ant-select-customize-input)
+    .ant-select-selector {
+    background-color: transparent;
+}
+.custom-select.ant-select-focused.ant-select-outlined:not(
+        .ant-select-customize-input
+    ):not(.ant-pagination-size-changer)
+    .ant-select-selector {
+    border-color: transparent;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.ql-editor {
+    font-size: 16px;
+}
+
+.tour-experiences ol,
+.tour-experiences ul {
+    margin-top: 8px;
+}
+
+.dot span {
+    background-color: transparent !important;
+}
+.dot li {
+    display: flex;
+    gap: 6px;
+    font-weight: 600;
+}
+
+.dot li::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #1f1f1f;
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 10px;
+}
+
+.ticket-overview h3 {
+    margin-top: 8px;
+}
+
+.ticket-overview p {
+    font-weight: 700;
+    margin-top: 8px;
+}
+.ticket-overview ol {
+    margin: 8px 10px 0;
+}
+
+.ant-checkbox-label {
+    font-size: 16px;
+}
+.policy-content ol,
+.policy-content ul {
+    padding-left: 1.25rem;
+    list-style: disc; /* hoặc decimal nếu dùng <ol> */
+}
+
+.policy-content li {
+    margin-bottom: 0.2rem;
+    margin-left: 0.5rem;
+    color: #545454;
+    font-size: 14px;
+}
+
+.two-months .ant-picker-panel-container {
+  display: flex !important;
+}
+/* styles/tooltip.css */
+.ant-tooltip-content .ant-tooltip-inner {
+    width: max-content;
+}
+
+.custom-right-modal.ant-modal {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: auto !important;
+}
+.custom-right-modal.ant-modal .ant-modal-content {
+    padding: 0;
+    margin: 0 !important;
+    background-color: rgb(234, 234, 234);
+}
+
+.custom-right-modal .ant-modal-body {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.custom-range-picker.ant-picker-outlined {
+    border: none !important;
+    background-color: transparent !important;
+}
+
+.custom-range-picker.ant-picker-outlined:focus,
+.custom-range-picker.ant-picker-outlined:focus-within {
+    border-color: transparent !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+
+.custom-range-picker.ant-picker-range .ant-picker-active-bar {
+    height: 0px !important;
+}
+.custom-range-picker.ant-picker .ant-picker-input > input[disabled] {
+    color: black;
+}
+
+.carousel-item {
+    padding: 8px 8px;
+    transition: transform 0.2s;
+}
+
+.carousel-item:hover {
+    transform: translateY(-6px);
+}

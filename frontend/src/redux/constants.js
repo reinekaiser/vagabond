@@ -1,0 +1,13 @@
+export const TOUR_URL = "/api/tour";
+export const HOTEL_URL = "/api/hotel"
+export const UPLOAD_URL = "/api/img"
+export const CITY_URL = "/api/cities"
+export const ADMIN_URL = "/api/admin"
+export const FACILITY_URL = "/api/facility"
+export const MESSAGE_URL = "/api/messages"
+export const REVIEW_URL = "/api/reviews"
+export const TOUR_BOOKING_URL = "/api/tourBooking";
+export const PAYPAL_URL = "/api/paypal";
+export const STRIPE_URL = "/api/stripe";
+export const PAYOS_URL = "/api/payos";
+export const HOTEL_BOOKING_URL = "/api/hotelBooking";
